@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400, 500,600, 700, 800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: rgb(55, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}          /** THIS IS START OF LEFT SIDE CONTAINTER**/
+.container .left_Side{
+    position: relative;
+    background: rgb(156, 156, 253);
+    padding: 40px;
+} 
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 19px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4)
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200%;
+    height: 200%;
+    border-radius: 50;
+    overflow: hidden;
+    perspective: 1px;
+}
+.profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ .profileText h1{
+    color: #000000;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .ContactInfo{
+    padding-top: 10px;
+ }
+ .title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 9px;
+ }
+ .ContactInfo ul{
+    position: relative;
+ }
+ .ContactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+ }
+ .ContactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #4b30e4;
+ }
+ .contactInfo ul li span{
+    color:  #4b30e4;
+    font-weight: 300;
+ }
+.ContactInfo.education li{
+    margin-bottom: 15px;
+}
+h4{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: larger;
+}
+
+.contactInfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+                                /** THIS IS START OF ROGHT SODE CONTAINTER ! ! */
+.container .right_Side{    
+    position: relative;
+    background: rgb(209, 194, 194);
+    padding: 40px;
+}
+.about{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4)
+
+} 
+.about.last-child{
+    margin-bottom: 20px;
+    
+}
+.title2{
+    color: #ffffff;
+    font-style: Impact;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.About .box{
+    display: flex;      /*  */
+    flex-direction: row;
+
+}
+.AboutSkills .box .job_experience{
+    min-width: 250px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4)
+
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 500; 
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4)
+}
+.about.box{
+    position: relative;
+    width: 500%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4)
+    
+}
+.skills .box .p{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 500;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4)
+}
